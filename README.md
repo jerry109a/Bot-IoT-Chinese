@@ -15,3 +15,35 @@ Five IoT scenarios were implemented in cloud server to collect the dataset:
   - Motion activated lights
   - A remotely activated garbage door
   - A smart thermostat
+
+## 新增的一些說明
+1. 資料集合請到[這裡]()去下載，並且專案創立一個Dataset Folder去放下載下的csv檔案，整體架構應該會像是:
+
+``` 
+project/
+│
+├── Dataset/
+│   ├── XXX_1.csv
+│   └── XXX_2.csv
+├── Project Bot-IoT.py
+├── prepare_top10_split.py
+└── .gitignore
+```
+
+2. 接著先跑prepare_top10_split.py完成，架構會變成:
+
+```
+project/
+│
+├── Dataset/
+│   ├── XXX_1.csv
+│   └── XXX_2.csv
+├── Dataset_for_train_and_test/
+│   ├── train.csv
+│   └── test.csv
+├── Project Bot-IoT.py
+├── prepare_top10_split.py
+└── .gitignore
+```
+
+3. 再開始跑`Project Bot-IoT.py`
