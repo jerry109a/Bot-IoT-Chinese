@@ -17,7 +17,7 @@ Five IoT scenarios were implemented in cloud server to collect the dataset:
   - A smart thermostat
 
 ## 新增的一些說明
-1. 資料集合請到[這裡]()去下載，並且專案創立一個Dataset Folder去放下載下的csv檔案，整體架構應該會像是:
+1. 資料集合請到[這裡](https://research.unsw.edu.au/projects/bot-iot-dataset)去下載，並且專案創立一個Dataset Folder去放下載下的csv檔案，整體架構應該會像是:
 
 ``` 
 project/
