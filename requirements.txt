@@ -7,3 +7,4 @@ xgboost>=2.0
 imbalanced-learn>=0.11
 tqdm>=4.66
 jupyter>=1.0
+tensorflow
